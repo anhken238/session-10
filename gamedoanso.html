@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Đoán số</title>
+</head>
+<body>
+    <script>
+        let nums = new gameDoanS0(parseInt(prompt('Nhập số', '')));
+        function gameDoanS0(nums) {
+            let radomSo = Math.floor(Math.random() * 101);
+            if (nums === radomSo)
+                document.write('Your Win số ngẫu nhiền là : ' + radomSo);
+            else
+                document.write('Your Lost số ngẫu nhiền là : ' + radomSo);
+        }
+    </script>
+</body>
+
+</html>

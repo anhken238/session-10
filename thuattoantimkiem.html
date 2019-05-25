@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<body>
+    <script>
+        function kiemtra(nums) {
+            egexp = /^(09|03)+([0-9]{8})$/;
+            if (egexp.test(nums)) {
+                document.write("số điện thoại mạng viettel");
+            } else {
+                document.write("số điện thoại không phải của mạng viettel");
+            }
+        }
+        let nhap = prompt('Nhập đầu số kiểm tra nhà mạng');
+        kiemtra(nhap);
+    </script>
+    
+</body>
+</html>
